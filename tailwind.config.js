@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'cinzel': '"Cinzel"',
-      'abhaya': '"Abhaya Libre',
+      'abhaya': '"Abhaya Libre"',
       'assistant': '"Assistant"'
     },
     extend: {
