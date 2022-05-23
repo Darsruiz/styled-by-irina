@@ -1,16 +1,16 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { catchError, Observable, retry, throwError } from 'rxjs';
 import { ICard } from '../shared/interfaces/card';
 import { IForm } from '../shared/interfaces/form';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HandleDataService {
 
-  constructor(private httpClient: HttpClient, private angularFirestore: AngularFirestore) {
+  constructor(private httpClient: HttpClient, private afs: AngularFirestore) {
 
   }
 
@@ -39,17 +39,10 @@ export class HandleDataService {
     this.createUser(form);
   }
 
-  createUser(user: IForm) {
-    return new Promise<any>((resolve, reject) => {
-      this.angularFirestore
-        .collection('user-collection')
-        .add(user)
-        .then(
-          (response) => {
-            console.log(response);
-          },
-          (error) => reject(error)
-        );
-    });
+  createUser(user: IForm): void {
+    this.afs.collection<IForm>('user-collection').add(user)
+      .then(result => {
+        console.log(result)
+      }).catch(err => console.log(err));
   }
 }

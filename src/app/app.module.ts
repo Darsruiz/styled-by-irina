@@ -12,10 +12,8 @@ import { CardComponent } from './shared/card/card.component';
 import { FormComponent } from './shared/form/form.component';
 import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
-import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-import { environment } from '../environments/environment';
-
+import { environment } from 'src/environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,8 +31,7 @@ import { environment } from '../environments/environment';
     HttpClientModule,
     FormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFireAuthModule,
-    AngularFirestoreModule,
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
