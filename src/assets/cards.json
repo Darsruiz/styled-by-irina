@@ -1,0 +1,66 @@
+[
+    {
+        "title": "DESCUBRE TU ESTILO",
+        "description": "Servicio adecuado para aquellas personas que aún no han encontrado un estilo acorde a su estilo de vida, gustos y necesidades. Este te permite descubrir que prendas y colores encajan en tu día a día. ",
+        "itemDescription": "El servicio incluye:",
+        "items": [
+            "1a videollamada de 45 minutos para averiguar las necesidades y descubrir el estilo a través de 'actividades' y cuestionarios online.",
+            "Entrega del dosier con las conclusiones.",
+            "2a videollamada de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
+        ]
+    },
+    {
+        "title": "DESCUBRE TU TIPO DE CUERPO",
+        "description": "Estudio morfológico para detectar que tipo de cuerpo tienes y potenciar sus características. Este servicio ayuda a saber que tipo de prendas favorecen tu tipología.  De esta forma obtendrás una guía para realizar tus compras.",
+        "itemDescription": "El servicio incluye:",
+        "items": [
+            "Cuestionario",
+            "Dosier final con las conclusiones",
+            "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
+        ]
+    },
+    {
+        "title": "PERSONAL SHOPPER",
+        "description": "Ideal para aquellas personas que tienen dificultades a la hora de ir a comprar ropa, quieren elevar y potenciar su estilo o simplemente no tienen tiempo para hacerlo ellas mismas. Este servicio mensual y yo me encargaría de efectuar tus compras con un presupuesto acordado anteriormente.  ",
+        "itemDescription": "El servicio incluye:",
+        "items": [
+            "Outfits genéricos",
+            "Cuestionario"
+        ]
+    },
+    {
+        "title": "OUTFITS PARA EVENTOS",
+        "description": "Creación de uno o más looks para un evento especial: boda, aniversario, graduación... ",
+        "itemDescription": "El servicio incluye:",
+        "items": [
+            "Cuestionarios",
+            "Looks (dependiendo de la cantidad deseada)",
+            "Pequeña recomendación para que el maquillaje y el peinado vayan acorde al look."
+        ]
+    },
+    {
+        "title": "ARMARIO CÁPSULA",
+        "description": "En este servicio se hace una selección de unas 40 prendas con las cuales puedes vestirte toda una temporada. De este modo evitamos comprar compulsivamente, creamos un fondo de armario sólido para mantener nuestro estilo y facilitamos la creación de looks, ya que las prendas se seleccionan para que todas combinen entre sí. ",
+        "itemDescription": "El servicio incluye:",
+        "items": [
+            "Cuestionario",
+            "Revisión del armario actual",
+            "Personal Shopper",
+            "Dosier final con conclusiones",
+            "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
+        ]
+    },
+    {
+        "title": "PACK",
+        "description": "DESCRIPCION",
+        "itemDescription": "El servicio incluye:",
+        "items": [
+            "Descubre tu estilo",
+            "Descubre tu tipo de cuerpo",
+            "Personal shopper",
+            "8 outfits",
+            "Dosier final con las conclusiones",
+            "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
+        ]
+    }
+]
