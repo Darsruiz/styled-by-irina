@@ -1,0 +1,14 @@
+<div class="col-span-1 prose font-abhaya">
+    <header class="text-center rounded-t-sm bg-soft-amber-300 font-assistant">{{card.title}}</header>
+    <div class="mx-2 ">
+        {{ card.description }}
+    </div>
+    <div class="mx-2 mt-2">
+        <p>{{ card.itemDescription }}</p>
+        <ul *ngFor="let item of card.items" class="mx-2">
+            <li>
+                {{ item }}
+            </li>
+        </ul>
+    </div>
+</div>
