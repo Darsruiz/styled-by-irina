@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ICard } from 'src/app/shared/interfaces/card';
+import { HandleDataService } from 'src/app/services/handle-data.service';
+import { IForm } from 'src/app/shared/interfaces/form';
 
 @Component({
   selector: 'app-main',
@@ -7,9 +10,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  cards!: ICard[];
+  isFormShown: boolean = false;
+  isSubmitted: boolean = false
+  constructor(private service: HandleDataService) { }
 
   ngOnInit(): void {
+    this.service.getCards().subscribe(data => this.cards = data)
   }
 
+
+  submitForm(form: IForm) {
+    this.service.sendEmail(form);
+    this.successfullySubmitted();
+  }
+
+  successfullySubmitted() {
+    this.isFormShown = false;
+    this.isSubmitted = true;
+    setTimeout(() => {
+      this.isSubmitted = false
+    }, 3000);
+  }
 }

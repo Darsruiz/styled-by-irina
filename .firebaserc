@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "styled-by-irina": {
+      "hosting": {
+        "styled-by-irina": [
+          "styled-by-irina"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "styled-by-irina"
+  }
+}

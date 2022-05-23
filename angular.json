@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "styled-by-irina:build:production",
+            "firebaseProject": "styled-by-irina",
+            "firebaseHostingSite": "styled-by-irina"
+          }
         }
       }
     }
