@@ -28,7 +28,7 @@
 
 <section class="grid grid-cols-12 gap-6 mb-6 md:mx-6 place-items-center md:mt-3">
     <app-card class="flex flex-col h-full col-span-12 mt-5 rounded-sm bg-soft-amber-200 md:col-span-4 drop-shadow-lg"
-        *ngFor="let card of cards" [card]="card">
+        *ngFor="let card of cards | async as list" [card]="card">
     </app-card>
 </section>
 
@@ -46,38 +46,15 @@
         Precio relativo a demanda.
     </p>
 </section>
-<section>
-    <div class="text-center py-14 bg-ebb-200 text-fuscous-gray-700">
-        <p class="text-6xl py-14 font-abhaya">Resultados</p>
-        <div class="grid grid-cols-3 gap-3 mx-3 place-items-center md:gap-8 md:mx-8">
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-        </div>
-    </div>
-    <div class=" py-14">
-        <div class="grid grid-cols-3 gap-3 mx-3 place-items-center md:gap-8 md:mx-8">
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-        </div>
-    </div>
-    <div class="bg-ebb-200 py-14">
-        <div class="grid grid-cols-3 gap-3 mx-3 place-items-center md:gap-8 md:mx-8">
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-            <div class="col-span-3 md:col-span-1"><img loading="lazy" class="shadow-md shadow-fuscous-gray-300 "
-                    src="../../../assets/hanged-clothes.webp" alt=""></div>
-        </div>
-    </div>
+<section class="md:mx-6 pb-5">
+    <app-gallery [images]="images"></app-gallery>
+</section>
+
+<section class="py-5 bg-soft-amber-200 grid place-items-center hover:cursor-pointer border-b border-fuscous-gray-700"
+    (click)="isNewsletterShown = true">
+    <p class="text-center">
+        Suscríbete a nuestro newsletter!
+    </p>
 </section>
 
 <div *ngIf="isFormShown" class="backdrop-blur-sm min-w-screen h-screen transition 
@@ -86,6 +63,14 @@
     <div (click)="isFormShown = false" class=" absolute bg-black opacity-20 inset-0 z-0"></div>
     <app-form (EmitForm)="submitForm($event)"
         class="w-full max-w-lg p-5 relative mx-auto my-auto rounded-sm shadow-lg  bg-white "></app-form>
+</div>
+
+<div *ngIf="isNewsletterShown" class="backdrop-blur-sm min-w-screen h-screen transition 
+    fadeIn fixed  left-0 top-0 flex justify-center items-center 
+    inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover">
+    <div (click)="isNewsletterShown = false" class=" absolute bg-black opacity-20 inset-0 z-0"></div>
+    <app-newsletter (EmitForm)="submitForm($event)"
+        class="w-full max-w-lg p-5 relative mx-auto my-auto rounded-sm shadow-lg  bg-white "></app-newsletter>
 </div>
 
 <div *ngIf="isSubmitted" class="backdrop-blur-sm min-w-screen h-screen transition 

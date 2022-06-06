@@ -1,0 +1,22 @@
+<form #userForm="ngForm" class="grid grid-cols-1 font-assistant">
+    <div class=" col-span-1 m-2">
+        <p class="text-center">Suscríbete a nuestro newsletter!</p>
+    </div>
+    <div class="col-span-1 m-2">
+        <label for="email">Email</label>
+        <input id="email" [(ngModel)]="form.email_address" required
+            class="w-full border border-soft-amber-200 rounded-sm" type="email" name="email" #email="ngModel"
+            email="true">
+        <div class="bg-red-200 mt-1 rounded-sm" [hidden]="email.valid || email.pristine">
+            <p class="mx-2">
+                Introduce un Email valido
+            </p>
+        </div>
+    </div>
+    <div class="col-span-1">
+        <button (click)="onSubmit(form)" [disabled]="!email.valid" type="button"
+            class="w-full p-2 rounded-sm bg-soft-amber-200 disabled:bg-gray-300">
+            Enviar
+        </button>
+    </div>
+</form>
