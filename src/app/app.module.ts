@@ -14,6 +14,9 @@ import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { environment } from 'src/environments/environment';
+import { NewsletterComponent } from './shared/newsletter/newsletter.component';
+import { GalleryComponent } from './pages/main/gallery/gallery.component';
+import { SwiperModule } from 'swiper/angular';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +27,8 @@ import { environment } from 'src/environments/environment';
     AboutComponent,
     CardComponent,
     FormComponent,
+    NewsletterComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +36,8 @@ import { environment } from 'src/environments/environment';
     HttpClientModule,
     FormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

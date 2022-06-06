@@ -1,0 +1,8 @@
+<swiper [slidesPerView]="3" [spaceBetween]="25" [slidesPerGroup]="3" [loop]="true" [loopFillGroupWithBlank]="true"
+        [pagination]="{
+      clickable: true
+    }" [navigation]="true" class="mySwiper">
+        <ng-template *ngFor="let image of images | async as list" swiperSlide>
+                <img loading="lazy" class="h-128 object-cover" src="{{image}}" alt="outfits">
+        </ng-template>
+</swiper>
