@@ -1,9 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable, retry, throwError } from 'rxjs';
-import { ICard } from '../shared/interfaces/card';
-import { IForm } from '../shared/interfaces/form';
+import { ICard } from '../interfaces/card';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { IUserForm } from '../interfaces/user-form';
 
 @Injectable({
   providedIn: 'root'
@@ -20,6 +20,11 @@ export class HandleDataService {
       .pipe(retry(1), catchError(this.handleError));
   };
 
+  getImages(): Observable<string[]> {
+    return this.httpClient
+      .get<string[]>("assets/images/images.json")
+      .pipe(retry(1), catchError(this.handleError));
+  }
   handleError(error: any) {
     let errorMessage = '';
     if (error.error instanceof ErrorEvent) {
@@ -30,19 +35,19 @@ export class HandleDataService {
       errorMessage = `Error Code: ${error.status}\nMessage: ${error.message}`;
     }
     return throwError(() => {
-      alert(`Error Obtaining Data: ${errorMessage}`)
+      console.log(`Error Obtaining Data: ${errorMessage}`)
     });
   }
 
-  sendEmail(form: IForm) {
+  sendEmail(form: IUserForm) {
     // Pending Email Implementation
     this.createUser(form);
   }
 
-  createUser(user: IForm): void {
-    this.afs.collection<IForm>('user-collection').add(user)
+  createUser(user: IUserForm): void {
+    this.afs.collection<IUserForm>('user-collection').add(user)
       .then(result => {
         console.log(result)
-      }).catch(err => console.log(err));
+      }).catch(err => this.handleError(err));
   }
 }
