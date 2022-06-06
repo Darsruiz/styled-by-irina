@@ -7,6 +7,9 @@ module.exports = {
       'assistant': '"Assistant"'
     },
     extend: {
+      height: {
+        '128': '32rem',
+      },
       colors: {
         'soft-amber': {
           '50': '#f8f5f4',
