@@ -16,17 +16,23 @@ export class MainComponent implements OnInit {
   isFormShown: boolean = false;
   isNewsletterShown: boolean = false;
   isSubmitted: boolean = false;
-  constructor(private service: HandleDataService) { }
-
-  ngOnInit(): void {
-    this.cards = this.service.getCards()
-    this.images = this.service.getImages()
+  constructor(private service: HandleDataService) {
+    this.service.eventCallback$
+      .subscribe(x => this.getCards(x))
   }
 
+  ngOnInit(): void {
+    this.cards = this.service.getCards();
+    this.images = this.service.getImages();
+  }
 
   submitForm(form: IUserForm) {
     this.service.sendEmail(form)
     this.successfullySubmitted();
+  }
+
+  getCards(lang: string) {
+    this.cards = this.service.getCards(lang);
   }
 
   successfullySubmitted() {

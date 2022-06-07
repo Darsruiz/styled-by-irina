@@ -1,23 +1,19 @@
 <section class="md:h-screen text-fuscous-gray-700 drop-shadow-lg">
     <div class="w-full mt-6 text-center rounded-sm bg-soft-amber-200 md:w-4/5 font-abhaya">
         <p class="grid text-6xl place-items-center md:mr-36 h-72">
-            SERVICIOS
+            {{ 'SERVICES.SERVICES' | translate }}
         </p>
     </div>
     <div class="grid grid-cols-2 place-items-center md:-mt-24">
         <div class="col-span-2 mx-12 my-6 text-center md:col-span-1 font-assistant">
             <p class="mb-6 text-4xl font-abhaya">
-                Totalmente personalizados
+                {{ 'SERVICES.TOTALLY_PERSONALIZED' | translate }}
             </p>
             <p>
-                Looks para sesiones de fotos, outfits para
-                el día a día, creación de un look adaptado
-                a la promoción de un producto, creación
-                armario cápsula, prueba de color, estudio
-                morfológico...
+                {{ 'SERVICES.DESCRIPTION' | translate }}
             </p>
             <p class="mt-6 text-2xl">
-                ¡Cualquier servicio que solicites!
+                {{ 'SERVICES.ANY_SERVICE_YOU_NEED' | translate }}
             </p>
         </div>
         <img fetchpriority="high"
@@ -28,22 +24,22 @@
 
 <section class="grid grid-cols-12 gap-6 mb-6 md:mx-6 place-items-center md:mt-3">
     <app-card class="flex flex-col h-full col-span-12 mt-5 rounded-sm bg-soft-amber-200 md:col-span-4 drop-shadow-lg"
-        *ngFor="let card of cards | async as list" [card]="card">
+        *ngFor="let card of cards | async" [card]="card">
     </app-card>
 </section>
 
 <section class="w-full">
-    <p class="my-3 text-2xl text-center font-assistant">Servicio disponible en español e inglés.</p>
+    <p class="my-3 text-2xl text-center font-assistant">{{ 'SERVICES.SERVICE_IN_ENGLISH_SPANISH' | translate }}</p>
     <p class="my-3 text-2xl text-center font-assistant">
-        Para más información enviame un
+        {{ 'FOR_MORE_INFORMATION' | translate }}
         <a class="hover:cursor-pointer border-b border-fuscous-gray-700"
             href="https://www.instagram.com/styledbyirina/">DM</a>
-        ó
-        <a class="hover:cursor-pointer border-b border-fuscous-gray-700" (click)="isFormShown = true">haz click
-            aqui</a>
+        {{ 'OR' | translate }}
+        <a class="hover:cursor-pointer border-b border-fuscous-gray-700" (click)="isFormShown = true">{{ 'CLICK_HERE' |
+            translate }}</a>
     </p>
     <p class="w-full my-3 text-xl text-center font-assistant">
-        Precio relativo a demanda.
+        {{ 'PRICE_BASED_ON_DEMAND' | translate }}
     </p>
 </section>
 <section class="md:mx-6 pb-5">
@@ -53,7 +49,7 @@
 <section class="py-5 bg-soft-amber-200 grid place-items-center hover:cursor-pointer border-b border-fuscous-gray-700"
     (click)="isNewsletterShown = true">
     <p class="text-center">
-        Suscríbete a nuestro newsletter!
+        {{ 'SUBSCRIBE' | translate}}
     </p>
 </section>
 
@@ -79,7 +75,7 @@
     <div class=" absolute bg-black opacity-20 inset-0 z-0"></div>
     <div class="w-full max-w-lg p-5 relative mx-auto my-auto rounded-sm shadow-lg  bg-white ">
         <p>
-            Solicitud enviada con exito! Te responderé lo mas pronto posible.
+            {{ 'FORMS.REQUEST_SENT' | translate }}
         </p>
     </div>
 </div>

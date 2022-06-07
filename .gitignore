@@ -48,3 +48,5 @@ Thumbs.db
 styled-by-irina.code-workspace
 src/environments/environment.prod.ts
 src/environments/environment.ts
+src/environments/environment.ts
+src/environments/environment.prod.ts
