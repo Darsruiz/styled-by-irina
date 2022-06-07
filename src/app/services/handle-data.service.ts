@@ -1,22 +1,34 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, retry, throwError } from 'rxjs';
+import { BehaviorSubject, catchError, Observable, retry, Subject, throwError } from 'rxjs';
 import { ICard } from '../interfaces/card';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { IUserForm } from '../interfaces/user-form';
+import { TranslateService } from '@ngx-translate/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HandleDataService {
 
-  constructor(private httpClient: HttpClient, private afs: AngularFirestore) {
+  private eventCallback: Subject<string> = new Subject<string>();
+  eventCallback$ = this.eventCallback.asObservable();
 
+  private cards: ICard[] = [];
+  private cardsSub: BehaviorSubject<ICard[]> = new BehaviorSubject<ICard[]>(this.cards);
+  cards$: Observable<ICard[]> = this.cardsSub.asObservable();
+
+  constructor(
+    private httpClient: HttpClient,
+    private afs: AngularFirestore,
+    private translate: TranslateService) {
   }
 
-  getCards(): Observable<ICard[]> {
+  getCards(
+    appLang = this.translate.currentLang
+  ): Observable<ICard[]> {
     return this.httpClient
-      .get<ICard[]>("assets/cards.json")
+      .get<ICard[]>(`assets/cards-${appLang}.json`)
       .pipe(retry(1), catchError(this.handleError));
   };
 
@@ -25,6 +37,12 @@ export class HandleDataService {
       .get<string[]>("assets/images/images.json")
       .pipe(retry(1), catchError(this.handleError));
   }
+
+  setLang(lang: string) {
+    this.translate.use(lang);
+    this.eventCallback.next(lang);
+  }
+
   handleError(error: any) {
     let errorMessage = '';
     if (error.error instanceof ErrorEvent) {
