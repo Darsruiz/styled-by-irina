@@ -1,40 +1,40 @@
 {
-    "FULL_NAME": "FULL_NAME",
-    "STYLIST_IMAGE_CONSULTANT": "STYLIST AND IMAGE CONSULTANT",
+    "FULL_NAME": "Irina de la Morena",
+    "STYLIST_IMAGE_CONSULTANT": "ESTILISTA Y ASESORA DE IMAGEN",
     "SERVICES": {
-        "SERVICES": "SERVICES",
-        "TOTALLY_PERSONALIZED": "TOTALLY PERSONALIZED",
-        "DESCRIPTION": "SERVICES_DESCRIPTION",
-        "ANY_SERVICE_YOU_NEED": "ANY_SERVICE_YOU_NEED",
-        "SERVICE_IN_ENGLISH_SPANISH": "SERVICE_IN_ENGLISH_SPANISH"
+        "SERVICES": "SERVICIOS",
+        "TOTALLY_PERSONALIZED": "Totalmente personalizados",
+        "DESCRIPTION": "Looks para sesiones de fotos, outfits para el día a día, creación de un look adaptado a la promoción de un producto, creación armario cápsula, prueba de color, estudio morfológico...",
+        "ANY_SERVICE_YOU_NEED": "¡Cualquier servicio que solicites!",
+        "SERVICE_IN_ENGLISH_SPANISH": "Servicio disponible en español e inglés."
     },
-    "FOR_MORE_INFORMATION": "FOR_MORE_INFORMATION",
-    "OR": "OR",
-    "CLICK_HERE": "CLICK_HERE",
-    "PRICE_BASED_ON_DEMAND": "PRICE_BASED_ON_DEMAND",
-    "SUBSCRIBE": "SUBSCRIBE",
-    "CONTACT": "CONTACT",
+    "FOR_MORE_INFORMATION": "Para más información enviame un",
+    "OR": "ó",
+    "CLICK_HERE": "haz click aqui",
+    "PRICE_BASED_ON_DEMAND": "Precio relativo a demanda.",
+    "SUBSCRIBE": "Suscríbete a nuestro newsletter!",
+    "CONTACT": "CONTACTO",
     "FORMS": {
-        "NAME": "NAME",
-        "INPUT_NAME": "INPUT_NAME",
-        "LAST_NAME": "LAST_NAME",
-        "INPUT_LAST_NAME": "INPUT_LAST_NAME",
-        "EMAIL": "EMAIL",
-        "INPUT_VALID_EMAIL": "INPUT_VALID_EMAIL",
-        "REQUEST": "REQUEST",
-        "SEND": "SEND",
-        "REQUEST_SENT": "REQUEST_SENT"
+        "NAME": "Nombre:",
+        "INPUT_NAME": "Introduce un nombre",
+        "LAST_NAME": "Apellidos:",
+        "INPUT_LAST_NAME": "Introduce los apellidos",
+        "EMAIL": "Email",
+        "INPUT_VALID_EMAIL": "Introduce un Email valido",
+        "REQUEST": "Puedes preguntar lo que quieras aqui:",
+        "SEND": "Enviar",
+        "REQUEST_SENT": "Solicitud enviada con exito! Te responderé lo mas pronto posible."
     },
     "PAGE_NOT_FOUND": {
         "404": "404",
-        "PAGE_NOT_FOUND": "PAGE_NOT_FOUND",
-        "RETURN": "RETURN"
+        "PAGE_NOT_FOUND": "Página no encontrada",
+        "RETURN": "Regresar?"
     },
     "ABOUT_ME": {
-        "WHO_AM_I": "WHO_AM_I",
-        "DESCRIPTION": "DESCRIPTION",
-        "EXPERIENCE": "EXPERIENCE",
-        "INTEREST": "INTEREST"
+        "WHO_AM_I": "¿QUIÉN SOY?",
+        "DESCRIPTION": "Estudios (Asesoría de Imagen Personal y Corporativa) cursados en Barcelona, mi ciudad natal.",
+        "EXPERIENCE": "Dos años de experiencia en el sector de la moda.",
+        "INTEREST": "Amante de la moda desde que tengo memoria."
     },
     "LANGUAGES": {
         "en": "ENGLISH",

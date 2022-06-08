@@ -1,66 +1,66 @@
 [
     {
-        "title": "[EN]DESCUBRE TU ESTILO",
-        "description": "Servicio adecuado para aquellas personas que aún no han encontrado un estilo acorde a su estilo de vida, gustos y necesidades. Este te permite descubrir que prendas y colores encajan en tu día a día. ",
-        "itemDescription": "El servicio incluye:",
+        "title": "DISCOVER YOUR STYLE",
+        "description": "This service is aimed towards the people who haven't found a style that goes with their lifestyle, needs and preferences. I will help you find what kind of pieces and colors suit you best and adapt to your everyday life.",
+        "itemDescription": "Service includes:",
         "items": [
-            "1a videollamada de 45 minutos para averiguar las necesidades y descubrir el estilo a través de 'actividades' y cuestionarios online.",
+            "1st 45min video call to discover your style and undestand your needs through different activities and online questionnaires.",
             "Entrega del dosier con las conclusiones.",
-            "2a videollamada de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
+            "2nd 15min video call for any inquiries that you may have after receiving the style document."
         ]
     },
     {
-        "title": "DESCUBRE TU TIPO DE CUERPO",
-        "description": "Estudio morfológico para detectar que tipo de cuerpo tienes y potenciar sus características. Este servicio ayuda a saber que tipo de prendas favorecen tu tipología.  De esta forma obtendrás una guía para realizar tus compras.",
-        "itemDescription": "El servicio incluye:",
+        "title": "DISCOVER YOUR BODY TYPE",
+        "description": "Morphological study to detect what type of body you have and enhance its characteristics. This service helps you know what type of garments favor your typology. This way you get a guide that you can use everytime you go shopping.",
+        "itemDescription": "Service includes:",
         "items": [
-            "Cuestionario",
-            "Dosier final con las conclusiones",
-            "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
+            "Questionnaire",
+            "Final dossier with the conclusions",
+            "Final call of 15 minutes to resolve any doubts that may arise in the delivery of the dossier."
         ]
     },
     {
         "title": "PERSONAL SHOPPER",
-        "description": "Ideal para aquellas personas que tienen dificultades a la hora de ir a comprar ropa, quieren elevar y potenciar su estilo o simplemente no tienen tiempo para hacerlo ellas mismas. Este servicio mensual y yo me encargaría de efectuar tus compras con un presupuesto acordado anteriormente.  ",
-        "itemDescription": "El servicio incluye:",
+        "description": "Ideal for those who have difficulties when shopping for clothes, want to elevate and enhance their style or simply do not have time to do it themselves. For this monthly service, I would take care of making your purchases with a previously agreed budget.",
+        "itemDescription": "Service includes:",
         "items": [
-            "Outfits genéricos",
-            "Cuestionario"
+            "Generic Outfits",
+            "Questionnaire"
         ]
     },
     {
-        "title": "OUTFITS PARA EVENTOS",
-        "description": "Creación de uno o más looks para un evento especial: boda, aniversario, graduación... ",
-        "itemDescription": "El servicio incluye:",
+        "title": "OUTFITS FOR EVENTS",
+        "description": "Creation of one or more looks for a special event: wedding, anniversary, graduation... ",
+        "itemDescription": "Service includes:",
         "items": [
-            "Cuestionarios",
-            "Looks (dependiendo de la cantidad deseada)",
-            "Pequeña recomendación para que el maquillaje y el peinado vayan acorde al look."
+            "Questions",
+            "Looks (depending on the desired quantity)",
+            "Small recommendation so that the makeup and hairstyle go according to the look."
         ]
     },
     {
-        "title": "ARMARIO CÁPSULA",
-        "description": "En este servicio se hace una selección de unas 40 prendas con las cuales puedes vestirte toda una temporada. De este modo evitamos comprar compulsivamente, creamos un fondo de armario sólido para mantener nuestro estilo y facilitamos la creación de looks, ya que las prendas se seleccionan para que todas combinen entre sí. ",
-        "itemDescription": "El servicio incluye:",
+        "title": "CAPSULE WARDROBE",
+        "description": "In this service, a selection of about 40 garments is made with which you can wear for a whole season. In this way we avoid buying compulsively, we create a solid wardrobe to maintain our style and we facilitate the creation of looks, since the garments are selected so that they all match each other. ",
+        "itemDescription": "Service includes:",
         "items": [
-            "Cuestionario",
-            "Revisión del armario actual",
-            "Personal Shopper",
-            "Dosier final con conclusiones",
-            "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
+            "Questionnaire",
+            "Current Wardrobe Review",
+            "Personal shopper",
+            "Final dossier with conclusions",
+            "Final call of 15 minutes to resolve any doubts that may arise in the delivery of the dossier."
         ]
     },
     {
         "title": "PACK",
-        "description": "DESCRIPCION",
-        "itemDescription": "El servicio incluye:",
+        "description": "DESCRIPTION",
+        "itemDescription": "Service includes:",
         "items": [
-            "Descubre tu estilo",
-            "Descubre tu tipo de cuerpo",
+            "Discover your style",
+            "Discover your body type",
             "Personal shopper",
             "8 outfits",
-            "Dosier final con las conclusiones",
-            "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
+            "Final dossier with the conclusions",
+            "Final call of 15 minutes to resolve any doubts that may arise in the delivery of the dossier."
         ]
     }
 ]

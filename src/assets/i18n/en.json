@@ -1,40 +1,40 @@
 {
-    "FULL_NAME": "FULL_NAME",
-    "STYLIST_IMAGE_CONSULTANT": "STYLIST AND IMAGE CONSULTANT",
+    "FULL_NAME": "Irina de la Morena",
+    "STYLIST_IMAGE_CONSULTANT": "STYLIST & IMAGE CONSULTANT",
     "SERVICES": {
         "SERVICES": "SERVICES",
-        "TOTALLY_PERSONALIZED": "TOTALLY PERSONALIZED",
-        "DESCRIPTION": "SERVICES_DESCRIPTION",
-        "ANY_SERVICE_YOU_NEED": "ANY_SERVICE_YOU_NEED",
-        "SERVICE_IN_ENGLISH_SPANISH": "SERVICE_IN_ENGLISH_SPANISH"
+        "TOTALLY_PERSONALIZED": "Completely Personalized",
+        "DESCRIPTION": "Looks for photoshoots, day to day outfits, creation of a look adapted to the promotion of a product, creation of a capsule wardrobe, color test, morphological study ...",
+        "ANY_SERVICE_YOU_NEED": "Any service you need!",
+        "SERVICE_IN_ENGLISH_SPANISH": "Service available in both English and Spanish"
     },
-    "FOR_MORE_INFORMATION": "FOR_MORE_INFORMATION",
-    "OR": "OR",
-    "CLICK_HERE": "CLICK_HERE",
-    "PRICE_BASED_ON_DEMAND": "PRICE_BASED_ON_DEMAND",
-    "SUBSCRIBE": "SUBSCRIBE",
+    "FOR_MORE_INFORMATION": "For more information",
+    "OR": "or",
+    "CLICK_HERE": "Click here",
+    "PRICE_BASED_ON_DEMAND": "Price based on demand.",
+    "SUBSCRIBE": "Subscribe to our newsletter",
     "CONTACT": "CONTACT",
     "FORMS": {
-        "NAME": "NAME",
-        "INPUT_NAME": "INPUT_NAME",
-        "LAST_NAME": "LAST_NAME",
-        "INPUT_LAST_NAME": "INPUT_LAST_NAME",
-        "EMAIL": "EMAIL",
-        "INPUT_VALID_EMAIL": "INPUT_VALID_EMAIL",
-        "REQUEST": "REQUEST",
-        "SEND": "SEND",
-        "REQUEST_SENT": "REQUEST_SENT"
+        "NAME": "Name:",
+        "INPUT_NAME": "Input name",
+        "LAST_NAME": "Last Name:",
+        "INPUT_LAST_NAME": "Input last name",
+        "EMAIL": "Email",
+        "INPUT_VALID_EMAIL": "Input a valid email",
+        "REQUEST": "Write your request here",
+        "SEND": "Send",
+        "REQUEST_SENT": "Request sent! I'll answer as soon as possible"
     },
     "PAGE_NOT_FOUND": {
         "404": "404",
-        "PAGE_NOT_FOUND": "PAGE_NOT_FOUND",
-        "RETURN": "RETURN"
+        "PAGE_NOT_FOUND": "Page not fount",
+        "RETURN": "Return?"
     },
     "ABOUT_ME": {
-        "WHO_AM_I": "WHO_AM_I",
-        "DESCRIPTION": "DESCRIPTION",
-        "EXPERIENCE": "EXPERIENCE",
-        "INTEREST": "INTEREST"
+        "WHO_AM_I": "Who am i?",
+        "DESCRIPTION": "Studies (Personal and Corporate Image Consulting) studied in Barcelona, my hometown",
+        "EXPERIENCE": "Two years of experience in the fashion industry",
+        "INTEREST": "I've loved fashion for as long as I can remember"
     },
     "LANGUAGES": {
         "en": "ENGLISH",
