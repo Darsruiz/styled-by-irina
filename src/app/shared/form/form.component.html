@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="col-span-1 m-2">
-        <label for="email">{{ 'FORMS.EMAIL'}}</label>
+        <label for="email">{{ 'FORMS.EMAIL' | translate }</label>
         <input id="email" [(ngModel)]="form.email_address" required
             class="w-full border border-soft-amber-200 rounded-sm" type="email" name="email" #email="ngModel"
             email="true">

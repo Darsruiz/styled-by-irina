@@ -12,6 +12,10 @@ export class HeaderComponent implements OnInit {
 
   languages = ['en', 'es'];
   ngOnInit(): void {
+    let lang = navigator.language.slice(0, 2).toLowerCase()
+    if (lang == ('es' || 'ca')) {
+      this.setLang('es')
+    }
   }
 
   setLang(lang: string) {
