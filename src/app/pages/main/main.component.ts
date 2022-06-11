@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HandleDataService } from 'src/app/services/handle-data.service';
 import { IUserForm } from 'src/app/interfaces/user-form';
-import { ICard } from 'src/app/interfaces/card';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -11,28 +10,19 @@ import { Observable } from 'rxjs';
 })
 export class MainComponent implements OnInit {
 
-  cards: Observable<ICard[]> | undefined;
   images: Observable<string[]> | undefined;
   isFormShown: boolean = false;
   isNewsletterShown: boolean = false;
   isSubmitted: boolean = false;
-  constructor(private service: HandleDataService) {
-    this.service.eventCallback$
-      .subscribe(x => this.getCards(x))
-  }
+  constructor(private service: HandleDataService) { }
 
   ngOnInit(): void {
-    this.cards = this.service.getCards();
     this.images = this.service.getImages();
   }
 
   submitForm(form: IUserForm) {
     this.service.sendEmail(form)
     this.successfullySubmitted();
-  }
-
-  getCards(lang: string) {
-    this.cards = this.service.getCards(lang);
   }
 
   successfullySubmitted() {

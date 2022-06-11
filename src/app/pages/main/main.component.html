@@ -1,79 +1,120 @@
-<section class="md:h-screen text-fuscous-gray-700 drop-shadow-lg">
-    <div class="w-full mt-6 text-center rounded-sm bg-soft-amber-200 md:w-4/5 font-abhaya">
-        <p class="grid text-6xl place-items-center md:mr-36 h-72">
-            {{ 'SERVICES.SERVICES' | translate }}
-        </p>
+<section class="h-72">
+    <img class="object-cover w-full h-full" src="../../../assets/images/banners/main-banner.png" alt="banner">
+</section>
+
+<section class="grid grid-cols-1 m-12 md:grid-cols-10 md:m-0 gap-7">
+    <div class="col-span-1 md:col-span-4 md:col-start-2">
+        <img class="object-cover w-full h-full md:-mt-36" src="../../../assets/images/irina/profile.png" alt="profile">
     </div>
-    <div class="grid grid-cols-2 place-items-center md:-mt-24">
-        <div class="col-span-2 mx-12 my-6 text-center md:col-span-1 font-assistant">
-            <p class="mb-6 text-4xl font-abhaya">
-                {{ 'SERVICES.TOTALLY_PERSONALIZED' | translate }}
-            </p>
-            <p>
-                {{ 'SERVICES.DESCRIPTION' | translate }}
-            </p>
-            <p class="mt-6 text-2xl">
-                {{ 'SERVICES.ANY_SERVICE_YOU_NEED' | translate }}
+    <div class="col-span-1 md:col-span-4 md:mt-12">
+        <div class="prose text-center md:mr-12 font-assistant">
+            <h3 class="text-3xl font-abhaya">
+                Lorem ipsum, dolor sit amet consectetur
+            </h3>
+            <h4 class="text-4xl font-cinzel">{{ 'FULL_NAME' | translate }}</h4>
+            <p class="text-xl text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni in est,
+                numquam
+                cumque
+                placeat minus, facilis
+                quasi nisi beatae quaerat temporibus. Minus vero ipsa quos necessitatibus sunt cum. Officiis, quisquam!
             </p>
         </div>
-        <img fetchpriority="high"
-            class="hidden col-span-2 mt-3 rounded-sm shadow-md md:col-span-1 shadow-fuscous-gray-300 md:mt-0 md:block"
-            src="../../../assets/hanged-clothes.webp" alt="hanged clothes">
+
     </div>
 </section>
 
-<section class="grid grid-cols-12 gap-6 mb-6 md:mx-6 place-items-center md:mt-3">
-    <app-card class="flex flex-col h-full col-span-12 mt-5 rounded-sm bg-soft-amber-200 md:col-span-4 drop-shadow-lg"
-        *ngFor="let card of cards | async" [card]="card">
-    </app-card>
+<section class="grid grid-cols-1 grid-rows-1 px-12 md:grid-cols-3 md:h-96 gap-7 py-7 bg-ebb-100">
+    <div class="h-full col-span-1 row-span-1 text-center">
+        <div class="grid h-full grid-rows-6">
+            <div class="row-span-1">
+                <p class="text-3xl font-abhaya">
+                    {{'SERVICES.SERVICES' | translate }}
+                </p>
+            </div>
+            <div class="row-span-5">
+                <p class="m-3 text-xl font-assistant">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni in est,
+                    numquam
+                    cumque
+                    placeat minus, facilis
+                </p>
+            </div>
+            <a class="row-span-1" href="/services">
+                <p class="text-3xl bg-soft-amber-200 font-abhaya">{{ 'MORE' | translate }}</p>
+            </a>
+        </div>
+    </div>
+    <div class="h-full col-span-1 row-span-1 text-center">
+        <div class="grid h-full grid-rows-6">
+            <div class="row-span-1">
+                <p class="text-3xl font-abhaya">
+                    {{'LINKS' | translate }}
+                </p>
+            </div>
+            <div class="row-span-5">
+                <p class="m-3 text-xl font-assistant">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni in est,
+                    numquam
+                    cumque
+                    placeat minus, facilis
+                </p>
+            </div>
+            <a class="row-span-1" href="/links">
+                <p class="text-3xl bg-soft-amber-200 font-abhaya">{{ 'MORE' | translate }}</p>
+            </a>
+        </div>
+    </div>
+    <div class="h-full col-span-1 row-span-1 text-center">
+        <div class="grid h-full grid-rows-6">
+            <div class="row-span-1">
+                <p class="text-3xl font-abhaya">
+                    {{ 'ABOUT_ME.ABOUT_ME' | translate }}
+                </p>
+            </div>
+            <div class="row-span-5">
+                <p class="m-3 text-xl font-assistant">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni in est,
+                    numquam
+                    cumque
+                    placeat minus, facilis
+                </p>
+            </div>
+            <a class="row-span-1" href="/about">
+                <p class="text-3xl bg-soft-amber-200 font-abhaya">{{ 'MORE' | translate }}</p>
+            </a>
+        </div>
+    </div>
 </section>
 
-<section class="w-full">
-    <p class="my-3 text-2xl text-center font-assistant">{{ 'SERVICES.SERVICE_IN_ENGLISH_SPANISH' | translate }}</p>
-    <p class="my-3 text-2xl text-center font-assistant">
-        {{ 'FOR_MORE_INFORMATION' | translate }}
-        <a class="hover:cursor-pointer border-b border-fuscous-gray-700"
-            href="https://www.instagram.com/styledbyirina/">DM</a>
-        {{ 'OR' | translate }}
-        <a class="hover:cursor-pointer border-b border-fuscous-gray-700" (click)="isFormShown = true">{{ 'CLICK_HERE' |
-            translate }}</a>
-    </p>
-    <p class="w-full my-3 text-xl text-center font-assistant">
-        {{ 'PRICE_BASED_ON_DEMAND' | translate }}
-    </p>
-</section>
-<section class="md:mx-6 pb-5">
+<section class="py-5 md:mx-6">
     <app-gallery [images]="images"></app-gallery>
 </section>
 
-<section class="py-5 bg-soft-amber-200 grid place-items-center hover:cursor-pointer border-b border-fuscous-gray-700"
+<section class="grid py-2 bg-soft-amber-200 place-items-center hover:cursor-pointer "
     (click)="isNewsletterShown = true">
-    <p class="text-center">
+    <p class="text-xl text-center font-assistant">
         {{ 'SUBSCRIBE' | translate}}
     </p>
 </section>
 
-<div *ngIf="isFormShown" class="backdrop-blur-sm min-w-screen h-screen transition 
-    fadeIn fixed  left-0 top-0 flex justify-center items-center 
-    inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover">
-    <div (click)="isFormShown = false" class=" absolute bg-black opacity-20 inset-0 z-0"></div>
+<div *ngIf="isFormShown"
+    class="fixed inset-0 top-0 left-0 z-50 flex items-center justify-center h-screen transition bg-center bg-no-repeat bg-cover outline-none backdrop-blur-sm min-w-screen fadeIn focus:outline-none">
+    <div (click)="isFormShown = false" class="absolute inset-0 z-0 bg-black opacity-20"></div>
     <app-form (EmitForm)="submitForm($event)"
-        class="w-full max-w-lg p-5 relative mx-auto my-auto rounded-sm shadow-lg  bg-white "></app-form>
+        class="relative w-full max-w-lg p-5 mx-auto my-auto bg-white rounded-sm shadow-lg "></app-form>
 </div>
 
-<div *ngIf="isNewsletterShown" class="backdrop-blur-sm min-w-screen h-screen transition 
-    fadeIn fixed  left-0 top-0 flex justify-center items-center 
-    inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover">
-    <div (click)="isNewsletterShown = false" class=" absolute bg-black opacity-20 inset-0 z-0"></div>
+<div *ngIf="isNewsletterShown"
+    class="fixed inset-0 top-0 left-0 z-50 flex items-center justify-center h-screen transition bg-center bg-no-repeat bg-cover outline-none backdrop-blur-sm min-w-screen fadeIn focus:outline-none">
+    <div (click)="isNewsletterShown = false" class="absolute inset-0 z-0 bg-black opacity-20"></div>
     <app-newsletter (EmitForm)="submitForm($event)"
-        class="w-full max-w-lg p-5 relative mx-auto my-auto rounded-sm shadow-lg  bg-white "></app-newsletter>
+        class="relative w-full max-w-lg p-5 mx-auto my-auto bg-white rounded-sm shadow-lg "></app-newsletter>
 </div>
 
-<div *ngIf="isSubmitted" class="backdrop-blur-sm min-w-screen h-screen transition 
-    fadeIn fixed  left-0 top-0 flex justify-center items-center 
-    inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover">
-    <div class=" absolute bg-black opacity-20 inset-0 z-0"></div>
-    <div class="w-full max-w-lg p-5 relative mx-auto my-auto rounded-sm shadow-lg  bg-white ">
+<div *ngIf="isSubmitted"
+    class="fixed inset-0 top-0 left-0 z-50 flex items-center justify-center h-screen transition bg-center bg-no-repeat bg-cover outline-none backdrop-blur-sm min-w-screen fadeIn focus:outline-none">
+    <div class="absolute inset-0 z-0 bg-black opacity-20"></div>
+    <div class="relative w-full max-w-lg p-5 mx-auto my-auto bg-white rounded-sm shadow-lg ">
         <p>
             {{ 'FORMS.REQUEST_SENT' | translate }}
         </p>
