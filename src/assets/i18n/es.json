@@ -14,6 +14,7 @@
     "PRICE_BASED_ON_DEMAND": "Precio relativo a demanda.",
     "SUBSCRIBE": "Suscríbete a nuestro newsletter!",
     "CONTACT": "CONTACTO",
+    "PORTFOLIO": "PORTAFOLIO",
     "FORMS": {
         "NAME": "Nombre:",
         "INPUT_NAME": "Introduce un nombre",
@@ -31,13 +32,14 @@
         "RETURN": "Regresar?"
     },
     "ABOUT_ME": {
+        "ABOUT_ME": "SOBRE MÍ",
         "WHO_AM_I": "¿QUIÉN SOY?",
         "DESCRIPTION": "Estudios (Asesoría de Imagen Personal y Corporativa) cursados en Barcelona, mi ciudad natal.",
         "EXPERIENCE": "Dos años de experiencia en el sector de la moda.",
         "INTEREST": "Amante de la moda desde que tengo memoria."
     },
     "LANGUAGES": {
-        "en": "ENGLISH",
-        "es": "SPANISH"
+        "en": "EN",
+        "es": "ES"
     }
 }

@@ -14,6 +14,7 @@
     "PRICE_BASED_ON_DEMAND": "Price based on demand.",
     "SUBSCRIBE": "Subscribe to our newsletter",
     "CONTACT": "CONTACT",
+    "PORTFOLIO": "PORTFOLIO",
     "FORMS": {
         "NAME": "Name:",
         "INPUT_NAME": "Input name",
@@ -27,17 +28,18 @@
     },
     "PAGE_NOT_FOUND": {
         "404": "404",
-        "PAGE_NOT_FOUND": "Page not fount",
+        "PAGE_NOT_FOUND": "Page not found",
         "RETURN": "Return?"
     },
     "ABOUT_ME": {
+        "ABOUT_ME": "ABOUT ME",
         "WHO_AM_I": "Who am i?",
         "DESCRIPTION": "Studies (Personal and Corporate Image Consulting) studied in Barcelona, my hometown",
         "EXPERIENCE": "Two years of experience in the fashion industry",
         "INTEREST": "I've loved fashion for as long as I can remember"
     },
     "LANGUAGES": {
-        "en": "ENGLISH",
-        "es": "SPANISH"
+        "en": "EN",
+        "es": "ES"
     }
 }
