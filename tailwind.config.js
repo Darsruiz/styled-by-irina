@@ -1,3 +1,9 @@
+const Nth = require('tailwind-nth-child')
+const nth3n = new Nth('odd', 'odd')
+const nth2n = new Nth('even', 'even') // Sub-elements that are multiples of 2  === new  Nth('even','even')
+const nth5 = new Nth('5', '-n+5') // The first five child elements
+const nth4 = new Nth('4', '-n+4') // The first four child elements
+
 module.exports = {
   content: ['./src/**/*.{html,ts}'],
   theme: {
@@ -10,6 +16,12 @@ module.exports = {
       height: {
         '128': '32rem',
       },
+      borderWidth: [
+        'nth-child-odd',
+        'nth-child-even',
+        'nth-child-4',
+        'nth-child-5'
+      ],
       colors: {
         'soft-amber': {
           '50': '#f8f5f4',
@@ -51,9 +63,14 @@ module.exports = {
       }
     },
   },
-  plugins: [require('@tailwindcss/aspect-ratio')
-    , require('@tailwindcss/forms')
-    , require('@tailwindcss/line-clamp')
-    , require('@tailwindcss/typography')
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/typography'),
+    nth2n.nthChild(),
+    nth3n.nthChild(),
+    nth4.nthChild(),
+    nth5.nthChild()
   ],
 };
