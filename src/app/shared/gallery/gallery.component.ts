@@ -1,5 +1,4 @@
-import { Component, ViewEncapsulation, ViewChild, Input } from "@angular/core";
-import { SwiperComponent } from "swiper/angular";
+import { Component, ViewEncapsulation, Input } from "@angular/core";
 
 // import Swiper core and required modules
 import SwiperCore, { Pagination, Navigation } from "swiper";
@@ -16,6 +15,7 @@ SwiperCore.use([Pagination, Navigation]);
   encapsulation: ViewEncapsulation.None
 })
 export class GalleryComponent {
+
   @Input() images: Observable<string[]> | undefined;
   constructor() { }
 
