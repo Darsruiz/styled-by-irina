@@ -1,18 +1,35 @@
-<section class="p-5 grid grid-cols-2">
-    <div class="col-span-1">
-        <img src="../../../assets/irina.webp" alt="irina">
+<section class="h-72">
+    <img class="object-cover w-full h-full" src="../../../assets/images/banners/main-banner.png" alt="banner">
+</section>
+
+<section class="grid grid-cols-1 m-12 md:grid-cols-10 md:m-0 gap-7">
+    <div class="col-span-1 md:col-span-4 md:col-start-2">
+        <img class="object-cover w-full h-full md:-mt-36" src="../../../assets/images/irina/about.png" alt="irina">
     </div>
-    <div class="col-span-1 text-justify">
-        <h2 class="font-abhaya text-center text-3xl">{{ 'ABOUT_ME.WHO_AM_I' | translate}}</h2>
-        <div class="font-assistant text-justify text-xl mx-6 ">
-            <p class=" font-abhaya mt-12 text-3xl ">{{'FULL_NAME' | translate}}</p>
-            <p class="mt-12">{{ 'STYLIST_IMAGE_CONSULTANT' | translate }}</p>
-            <p class="mt-12">
-                {{'ABOUT_ME.DESCRIPTION' | translate}}
+    <div class="col-span-1 md:col-span-4 md:mt-12">
+        <div class="prose text-center md:mr-12 font-assistant">
+            <h2 class="text-3xl text-center font-abhaya">{{ 'ABOUT_ME.ABOUT_ME' | translate}}</h2>
+            <h4 class="text-4xl font-cinzel">{{ 'FULL_NAME' | translate }}</h4>
+            <p class="text-xl text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni in est,
+                numquam
+                cumque
+                placeat minus, facilis
+                quasi nisi beatae quaerat temporibus. Minus vero ipsa quos necessitatibus sunt cum. Officiis, quisquam!
             </p>
-            <p class="mt-12">{{'ABOUT_ME.EXPERIENCE' | translate}}</p>
-            <p class="mt-12">{{'ABOUT_ME.INTEREST' | translate}}</p>
         </div>
 
+    </div>
+</section>
+
+<section class="h-96 bg-ebb-100 py-8 mt-8 px-12">
+    <h4 class="text-4xl font-cinzel">STYLEDBYIRINA</h4>
+</section>
+
+<section class="gap-7 grid grid-cols-12 py-8 px-12">
+    <div class="col-span-8 bg-soft-amber-200">
+        <h4 class="text-4xl pt-8 pl-8 font-cinzel">{{ 'ABOUT_ME.MY_VALUES' | translate }}</h4>
+    </div>
+    <div class="col-span-4">
+        <img class="object-contain" src="../../../assets/images/irina/values.png" alt="irina-values">
     </div>
 </section>

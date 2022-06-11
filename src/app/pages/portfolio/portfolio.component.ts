@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { HandleDataService } from 'src/app/services/handle-data.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  images: Observable<string[]> | undefined;
+  images2: Observable<string[]> | undefined;
+  constructor(private service: HandleDataService) { }
 
   ngOnInit(): void {
+    this.images = this.service.getImages();
+    this.images2 = this.service.getImages2();
   }
 
 }

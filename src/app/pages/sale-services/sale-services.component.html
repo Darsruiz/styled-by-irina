@@ -24,8 +24,7 @@
 </section>
 
 <section
-    class="grid grid-cols-12 gap-6 mb-6 md:mx-6 place-items-center md:mt-3 nth-child-even:bg-ebb-100 nth-child-odd:bg-soft-amber-200">
-    <app-card class="flex flex-col h-full col-span-12 mt-5 md:col-span-4" *ngFor="let card of cards | async"
-        [card]="card">
+    class="grid grid-cols-1 mt-5 mb-6 md:grid-cols-3 gap-7 md:mx-6 nth-child-even:bg-ebb-100 nth-child-odd:bg-soft-amber-200">
+    <app-card class="h-full col-span-1 row-span-1" *ngFor="let card of cards | async" [card]="card">
     </app-card>
 </section>
