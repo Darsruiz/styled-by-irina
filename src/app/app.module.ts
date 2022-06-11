@@ -15,7 +15,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { environment } from 'src/environments/environment';
 import { NewsletterComponent } from './shared/newsletter/newsletter.component';
-import { GalleryComponent } from './pages/main/gallery/gallery.component';
+import { GalleryComponent } from './shared/gallery/gallery.component';
 import { SwiperModule } from 'swiper/angular';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';

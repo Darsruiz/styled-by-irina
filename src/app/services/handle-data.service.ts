@@ -38,6 +38,12 @@ export class HandleDataService {
       .pipe(retry(1), catchError(this.handleError));
   }
 
+  getImages2(): Observable<string[]> { // split observable instead
+    return this.httpClient
+      .get<string[]>("assets/images/images-2.json")
+      .pipe(retry(1), catchError(this.handleError));
+  }
+
   setLang(lang: string) {
     this.translate.use(lang);
     this.eventCallback.next(lang);
