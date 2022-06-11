@@ -20,6 +20,7 @@ import { SwiperModule } from 'swiper/angular';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { SaleServicesComponent } from './pages/sale-services/sale-services.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -37,6 +38,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     NewsletterComponent,
     GalleryComponent,
     PortfolioComponent,
+    SaleServicesComponent,
   ],
   imports: [
     BrowserModule,

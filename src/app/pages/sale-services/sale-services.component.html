@@ -1,0 +1,31 @@
+<section class="h-72">
+    <img class="object-cover w-full h-full" src="../../../assets/images/banners/services-banner.png" alt="banner">
+</section>
+
+<section class="grid grid-cols-1 m-12 mb-16 md:grid-cols-10 md:m-0 gap-7">
+    <div class="col-span-1 md:col-span-4 md:col-start-2">
+        <img class="md:-mt-36" src="../../../assets/images/banners/services-main.png" alt="profile">
+    </div>
+    <div class="col-span-1 md:col-span-4 md:mt-12">
+        <div class="mt-12 prose text-center md:ml-16 font-assistant">
+            <h3 class="text-3xl font-abhaya">
+                Lorem ipsum, dolor sit amet consectetur
+            </h3>
+            <h4 class="text-4xl font-cinzel">{{ 'SERVICES.SERVICES' | translate }}</h4>
+            <p class="text-xl text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni in est,
+                numquam
+                cumque
+                placeat minus, facilis
+                quasi nisi beatae quaerat temporibus. Minus vero ipsa quos necessitatibus sunt cum. Officiis, quisquam!
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section
+    class="grid grid-cols-12 gap-6 mb-6 md:mx-6 place-items-center md:mt-3 nth-child-even:bg-ebb-100 nth-child-odd:bg-soft-amber-200">
+    <app-card class="flex flex-col h-full col-span-12 mt-5 md:col-span-4" *ngFor="let card of cards | async"
+        [card]="card">
+    </app-card>
+</section>
