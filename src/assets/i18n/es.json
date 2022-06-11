@@ -8,11 +8,13 @@
         "ANY_SERVICE_YOU_NEED": "¡Cualquier servicio que solicites!",
         "SERVICE_IN_ENGLISH_SPANISH": "Servicio disponible en español e inglés."
     },
+    "MORE": "VER MÁS",
+    "LINKS": "LINKS",
     "FOR_MORE_INFORMATION": "Para más información enviame un",
     "OR": "ó",
     "CLICK_HERE": "haz click aqui",
     "PRICE_BASED_ON_DEMAND": "Precio relativo a demanda.",
-    "SUBSCRIBE": "Suscríbete a nuestro newsletter!",
+    "SUBSCRIBE": "Suscríbete a nuestro boletín!",
     "CONTACT": "CONTACTO",
     "PORTFOLIO": "PORTAFOLIO",
     "FORMS": {
@@ -36,7 +38,8 @@
         "WHO_AM_I": "¿QUIÉN SOY?",
         "DESCRIPTION": "Estudios (Asesoría de Imagen Personal y Corporativa) cursados en Barcelona, mi ciudad natal.",
         "EXPERIENCE": "Dos años de experiencia en el sector de la moda.",
-        "INTEREST": "Amante de la moda desde que tengo memoria."
+        "INTEREST": "Amante de la moda desde que tengo memoria.",
+        "MY_VALUES": "MIS VALORES"
     },
     "LANGUAGES": {
         "en": "EN",

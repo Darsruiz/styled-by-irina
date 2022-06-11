@@ -8,11 +8,13 @@
         "ANY_SERVICE_YOU_NEED": "Any service you need!",
         "SERVICE_IN_ENGLISH_SPANISH": "Service available in both English and Spanish"
     },
+    "MORE": "MORE",
+    "LINKS": "LINKS",
     "FOR_MORE_INFORMATION": "For more information",
     "OR": "or",
     "CLICK_HERE": "Click here",
     "PRICE_BASED_ON_DEMAND": "Price based on demand.",
-    "SUBSCRIBE": "Subscribe to our newsletter",
+    "SUBSCRIBE": "Subscribe to our newsletter!",
     "CONTACT": "CONTACT",
     "PORTFOLIO": "PORTFOLIO",
     "FORMS": {
@@ -36,7 +38,8 @@
         "WHO_AM_I": "Who am i?",
         "DESCRIPTION": "Studies (Personal and Corporate Image Consulting) studied in Barcelona, my hometown",
         "EXPERIENCE": "Two years of experience in the fashion industry",
-        "INTEREST": "I've loved fashion for as long as I can remember"
+        "INTEREST": "I've loved fashion for as long as I can remember",
+        "MY_VALUES": "MY VALUES"
     },
     "LANGUAGES": {
         "en": "EN",
