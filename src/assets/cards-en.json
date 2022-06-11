@@ -7,7 +7,8 @@
             "1st 45min video call to discover your style and undestand your needs through different activities and online questionnaires.",
             "Entrega del dosier con las conclusiones.",
             "2nd 15min video call for any inquiries that you may have after receiving the style document."
-        ]
+        ],
+        "price": 200
     },
     {
         "title": "DISCOVER YOUR BODY TYPE",
@@ -17,7 +18,8 @@
             "Questionnaire",
             "Final dossier with the conclusions",
             "Final call of 15 minutes to resolve any doubts that may arise in the delivery of the dossier."
-        ]
+        ],
+        "price": 150
     },
     {
         "title": "PERSONAL SHOPPER",
@@ -26,7 +28,8 @@
         "items": [
             "Generic Outfits",
             "Questionnaire"
-        ]
+        ],
+        "price": 100
     },
     {
         "title": "OUTFITS FOR EVENTS",
@@ -36,7 +39,8 @@
             "Questions",
             "Looks (depending on the desired quantity)",
             "Small recommendation so that the makeup and hairstyle go according to the look."
-        ]
+        ],
+        "price": 50
     },
     {
         "title": "CAPSULE WARDROBE",
@@ -48,7 +52,8 @@
             "Personal shopper",
             "Final dossier with conclusions",
             "Final call of 15 minutes to resolve any doubts that may arise in the delivery of the dossier."
-        ]
+        ],
+        "price": 450
     },
     {
         "title": "PACK",
@@ -61,6 +66,7 @@
             "8 outfits",
             "Final dossier with the conclusions",
             "Final call of 15 minutes to resolve any doubts that may arise in the delivery of the dossier."
-        ]
+        ],
+        "price": 550
     }
 ]

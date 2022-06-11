@@ -7,7 +7,8 @@
             "1a videollamada de 45 minutos para averiguar las necesidades y descubrir el estilo a través de 'actividades' y cuestionarios online.",
             "Entrega del dosier con las conclusiones.",
             "2a videollamada de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
-        ]
+        ],
+        "price": 200
     },
     {
         "title": "DESCUBRE TU TIPO DE CUERPO",
@@ -17,7 +18,8 @@
             "Cuestionario",
             "Dosier final con las conclusiones",
             "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
-        ]
+        ],
+        "price": 150
     },
     {
         "title": "PERSONAL SHOPPER",
@@ -26,7 +28,8 @@
         "items": [
             "Outfits genéricos",
             "Cuestionario"
-        ]
+        ],
+        "price": 100
     },
     {
         "title": "OUTFITS PARA EVENTOS",
@@ -36,7 +39,8 @@
             "Cuestionarios",
             "Looks (dependiendo de la cantidad deseada)",
             "Pequeña recomendación para que el maquillaje y el peinado vayan acorde al look."
-        ]
+        ],
+        "price": 50
     },
     {
         "title": "ARMARIO CÁPSULA",
@@ -48,7 +52,8 @@
             "Personal Shopper",
             "Dosier final con conclusiones",
             "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
-        ]
+        ],
+        "price": 450
     },
     {
         "title": "PACK",
@@ -61,6 +66,7 @@
             "8 outfits",
             "Dosier final con las conclusiones",
             "Llamada final de 15min para resolver las dudas que puedan surgir en la entrega del dosier."
-        ]
+        ],
+        "price": 550
     }
 ]

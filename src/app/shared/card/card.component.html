@@ -1,9 +1,7 @@
-<div class="col-span-1 mx-4 prose font-abhaya">
-    <header class="my-3 text-3xl text-center font-cinzel">{{card.title}}</header>
-    <div class="mx-2 text-xl font-assistant">
-        {{ card.description }}
-    </div>
-    <div class="mx-2 mt-2 font-assistant">
+<div class="grid h-full grid-rows-1 p-4 prose font-abhaya">
+    <div class="row-span-5 text-xl">
+        <p class="text-3xl text-center font-cinzel ">{{card.title}}</p>
+        <p class="mb-2 font-assistant">{{ card.description }}</p>
         <p>{{ card.itemDescription }}</p>
         <ul *ngFor="let item of card.items" class="mx-2">
             <li>
@@ -11,4 +9,7 @@
             </li>
         </ul>
     </div>
+    <p class="row-span-1 text-3xl text-center font-abhaya">
+        {{ card.price | currency:"USD":"symbol"}}
+    </p>
 </div>
