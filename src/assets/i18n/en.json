@@ -24,6 +24,7 @@
     "SUBSCRIBE": "Subscribe to our newsletter!",
     "CONTACT": "CONTACT",
     "PORTFOLIO": "PORTFOLIO",
+    "PORTFOLIO_DESC" : "Here you can see some of my works in the past three years. These looks were designed for photoshoots or for a day to day basis",
     "FORMS": {
         "NAME": "Name:",
         "INPUT_NAME": "Input name",
