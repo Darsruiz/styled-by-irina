@@ -8,21 +8,21 @@
         </h2>
     </div>
     <div class="grid grid-cols-1 gap-5 mb-6 md:grid-cols-12 font-abhaya">
-        <a class="hover:cursor-pointer hover:border-b border-fuscous-gray-700 selection:col-span-1 "
+        <a class="select-none hover:cursor-pointer hover:border-b border-fuscous-gray-700 selection:col-span-1 "
             href="https://www.instagram.com/styledbyirina/">INSTAGRAM</a>
-        <a class="col-span-1 hover:cursor-pointer hover:border-b border-fuscous-gray-700 "
+        <a class="col-span-1 select-none hover:cursor-pointer hover:border-b border-fuscous-gray-700 "
             href="https://www.shopltk.com/explore/styledbyirina">LTK</a>
-        <a class="col-span-1 hover:cursor-pointer hover:border-b border-fuscous-gray-700 " href="/about">{{
+        <a class="col-span-1 select-none hover:cursor-pointer hover:border-b border-fuscous-gray-700 " href="/about">{{
             'ABOUT_ME.ABOUT_ME' | translate }}</a>
-        <a class="col-span-1 md:col-start-10 hover:cursor-pointer hover:border-b border-fuscous-gray-700"
+        <a class="col-span-1 select-none md:col-start-10 hover:cursor-pointer hover:border-b border-fuscous-gray-700"
             href="/services">{{
             'SERVICES.SERVICES' | translate }}</a>
-        <a class="col-span-1 hover:cursor-pointer hover:border-b border-fuscous-gray-700 " href="/portfolio">{{
+        <a class="col-span-1 select-none hover:cursor-pointer hover:border-b border-fuscous-gray-700 " href="/portfolio">{{
             'PORTFOLIO' | translate }}</a>
         <div class="col-span-1">
             <div *ngFor="let language of languages">
                 <a (click)="setLang(language)" *ngIf="language != activeLang"
-                    class="hover:cursor-pointer hover:border-b border-fuscous-gray-700">{{
+                    class="select-none hover:cursor-pointer hover:border-b border-fuscous-gray-700">{{
                     'LANGUAGES.' + language |
                     translate }}</a>
             </div>
