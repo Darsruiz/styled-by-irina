@@ -43,10 +43,19 @@
     "ABOUT_ME": {
         "ABOUT_ME": "SOBRE MÍ",
         "WHO_AM_I": "¿QUIÉN SOY?",
-        "DESCRIPTION": "Estudios (Asesoría de Imagen Personal y Corporativa) cursados en Barcelona, mi ciudad natal.",
+        "DESCRIPTION": "Soy Irina de la Morena, estilista, asesora de moda y creadora digital en @styledbyirina. Actualmente, tengo 21 años, pero la moda me apasiona desde que tengo uso de razón, por este motivo he centrado mis estudios en ella. En 2021 conseguí mi titulación de Asesoría de Imagen Personal y Corporativa en Barcelona, mi ciudad natal, pero ejerzo de estilista desde hace ya tres años.",
         "EXPERIENCE": "Dos años de experiencia en el sector de la moda.",
         "INTEREST": "Amante de la moda desde que tengo memoria.",
-        "MY_VALUES": "MIS VALORES"
+        "MY_VALUES": "MIS VALORES",
+        "VALUES_INFO" : "Los valores que quiero transmitir en @styledbyirina son:",
+        "VALUES_0":"Pasión",
+        "VALUES_1":"Calidad",
+        "VALUES_2":"Elegancia",
+        "VALUES_3":"Delicadeza",
+        "VALUES_4":"Esfuerzo",
+        "VALUES_5":"Esfuerzo",
+        "VALUES_SUMMARY": "Sin ninguna duda estos son los 6 valores más importantes para mí, ya que gracias a ellos he ido creciendo como persona y como profesional.",
+        "HISTORY": "Cree @styledbyirina hará unos tres años, mi motivación principal era expresarme y mostrar al público mi forma de ver la vida a través de la moda. Poco a poco la cuenta fue creciendo, centré el contenido en ayudar e inspirar a todas las personas que vieran las publicaciones y gracias a eso hoy somos más de 100K en Instagram. También me gusta informar sobre las novedades en este sector, ya sean nuevas colecciones, colaboraciones o cubrir las Fashion Weeks a nivel nacional e internacional."
     },
     "LANGUAGES": {
         "en": "EN",

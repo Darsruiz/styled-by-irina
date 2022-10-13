@@ -43,10 +43,19 @@
     "ABOUT_ME": {
         "ABOUT_ME": "ABOUT ME",
         "WHO_AM_I": "Who am i?",
-        "DESCRIPTION": "Studies (Personal and Corporate Image Consulting) studied in Barcelona, my hometown",
+        "DESCRIPTION": "I'm Irina de la Morena, a stylist, fashion consultant and digital creator at @styledbyirina. Currently, I am 21 years old, but I have been passionate about fashion since I can remember, for this reason I have focused my studies on it. In 2021 I got my degree in Personal and Corporate Image Consulting in Barcelona, my hometown, but I have been working as a stylist for three years now.",
         "EXPERIENCE": "Two years of experience in the fashion industry",
         "INTEREST": "I've loved fashion for as long as I can remember",
-        "MY_VALUES": "MY VALUES"
+        "MY_VALUES": "MY VALUES",
+        "VALUES_INFO": "The values I want to convey in @styledbyirina are:",
+        "VALUES_0":"Passion",
+        "VALUES_1":"Quality",
+        "VALUES_2":"Elegance",
+        "VALUES_3":"Daintiness",
+        "VALUES_4":"Hard Work",
+        "VALUES_5":"Honesty",
+        "VALUES_SUMMARY": "Without any doubt, these are the 6 most important values for me, thanks to them I have been growing as a person and as a professional.",
+        "HISTORY": "I created @styledbyirina about three years ago, my main motivation was to express myself and show the public my way of seeing life through fashion. Little by little the account started growing, I focused the content on helping and inspiring All people who see the posts and thanks to that today we are more than 100k on Instagram. I also like to inform about the novelties in this sector, whether it is new collections, collaborations or cover the fashion weeks at national and international level. "
     },
     "LANGUAGES": {
         "en": "EN",
