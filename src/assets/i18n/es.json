@@ -1,6 +1,13 @@
 {
     "FULL_NAME": "Irina de la Morena",
     "STYLIST_IMAGE_CONSULTANT": "ESTILISTA Y ASESORA DE IMAGEN",
+    "MAIN": {
+        "PHRASE": "La moda tiene que reflejar quién eres, qué sientes en el momento y a dónde vas - Pharrell Williams",
+        "INFO": "Hola, soy Irina, la creadora de @styledbyirina. Actualmente, trabajo como estilista personal y creadora de contenido, publicando diariamente diferentes contenidos para inspirar e informar a la gente sobre las nuevas tendencias y estilos en el sector de la moda.",
+        "SERVICES": "Clica aquí para descubrir los 6 servicios disponibles, sus características, qué incluyen, el porqué de cada uno y su coste. Todos son personalizados y están disponibles en Español e Inglés.",
+        "LINKS": "Clica aquí para acceder a los links directos de todas las prendas publicadas en @styledbyirina. De esta forma podrás recrear los outfits.",
+        "ABOUT_ME": "Aquí encontrarás una pequeña descripción sobre quien soy, por qué cree @styledbyirina y cuáles son mis valores como marca y como persona."
+    },
     "SERVICES": {
         "SERVICES": "SERVICIOS",
         "TOTALLY_PERSONALIZED": "Totalmente personalizados",
